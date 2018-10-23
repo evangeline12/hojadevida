@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 25px;
+    background: salmon;
+}
+
+
+    .container h1{
+        text-align: center; 
+        font-size: 30px;       
+    }
+
+    .container header{
+        position: relative;
+
+    }
+
+
+    .container header nav{
+        position: absolute;
+        top: 120px;
+        right: 20px;
+    }
+
+    .container header img{
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+ul.navegacion{
+ padding-left: 0;
+}    
+
+.navegacion li{
+    list-style: none;
+    margin: auto;
+    display: inline-block;
+
+}
+.navegacion li a:link{
+    display: block;
+    height: 100%;
+    padding: 1em;
+    background: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    box-shadow: 3px 2px grey;
+
+}
+
+.navegacion li a:visited {
+    border-bottom: 1px solid salmon;
+}
+.navegacion li a:hover {
+    box-shadow: 3px 3px black;
+}
+.navegacion li a:active {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+
+#s1 p{
+    text-align: justify;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+#s4 ul.tarjetitas > li{
+    box-shadow: 3px 2px grey;
+    display: inline-block;
+    background: white;
+    padding: 20px 15px;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+#s4 ul.tarjetitas > li ul{
+    padding: 0;
+}
+#s4 ul.tarjetitas li{
+    list-style: none;
+}
